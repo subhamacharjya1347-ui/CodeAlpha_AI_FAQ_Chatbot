@@ -1,0 +1,98 @@
+[
+    {
+        "question": "What is this chatbot?",
+        "answer": "This is an FAQ chatbot that uses Natural Language Processing (NLP) and semantic similarity to match a user's question with a relevant question in its FAQ database and return the stored answer."
+    },
+    {
+        "question": "How does this chatbot work?",
+        "answer": "The chatbot converts FAQ questions and the user's question into numerical sentence embeddings. It compares them using cosine similarity and returns the answer for the closest FAQ when the match is strong enough."
+    },
+    {
+        "question": "What is the purpose of this project?",
+        "answer": "The purpose of this project is to demonstrate how Natural Language Processing and semantic similarity can help users find answers to frequently asked questions quickly."
+    },
+    {
+        "question": "What is natural language processing?",
+        "answer": "Natural Language Processing (NLP) is a field of Artificial Intelligence that helps computers process, understand, and work with human language."
+    },
+    {
+        "question": "What is artificial intelligence?",
+        "answer": "Artificial Intelligence (AI) is a field of computer science focused on building systems that perform tasks that normally require human intelligence, such as understanding language, recognizing patterns, and making predictions."
+    },
+    {
+        "question": "What is machine learning?",
+        "answer": "Machine Learning (ML) is a branch of Artificial Intelligence in which computers learn patterns from data to make predictions or decisions without being explicitly programmed for every case."
+    },
+    {
+        "question": "What is deep learning?",
+        "answer": "Deep Learning is a branch of Machine Learning that uses multi-layered artificial neural networks to learn complex patterns from data."
+    },
+    {
+        "question": "What is the difference between AI and machine learning?",
+        "answer": "Artificial Intelligence is the broader field of creating systems that perform intelligent tasks. Machine Learning is a subset of AI that enables systems to learn patterns from data."
+    },
+    {
+        "question": "What is the difference between machine learning and deep learning?",
+        "answer": "Machine Learning includes many methods for learning from data. Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers."
+    },
+    {
+        "question": "What is a chatbot?",
+        "answer": "A chatbot is a software application that communicates with users through text or voice and provides responses to their questions or requests."
+    },
+    {
+        "question": "What is semantic similarity?",
+        "answer": "Semantic similarity measures how closely two pieces of text are related in meaning. It can recognize that differently worded sentences may express similar ideas."
+    },
+    {
+        "question": "What is cosine similarity?",
+        "answer": "Cosine similarity measures the similarity between two numerical vectors. In this chatbot, it compares sentence embeddings to identify the FAQ question most similar in meaning to the user's question."
+    },
+    {
+        "question": "What is a sentence transformer?",
+        "answer": "A Sentence Transformer is a model that converts sentences into numerical vectors called embeddings. These embeddings can be compared to find sentences with similar meanings."
+    },
+    {
+        "question": "What is an embedding?",
+        "answer": "An embedding is a numerical representation of text or another item. Text embeddings help a computer compare the meaning of sentences mathematically."
+    },
+    {
+        "question": "What is the TF-IDF method?",
+        "answer": "TF-IDF stands for Term Frequency-Inverse Document Frequency. It gives importance to words based on how often they appear in a document and how rare they are across a collection of documents."
+    },
+    {
+        "question": "What is the difference between keyword matching and semantic matching?",
+        "answer": "Keyword matching looks for overlapping words. Semantic matching compares meaning, so it can identify related questions even when they use different words."
+    },
+    {
+        "question": "Which programming language is used in this project?",
+        "answer": "This project is developed using Python."
+    },
+    {
+        "question": "Which framework is used to build the chatbot interface?",
+        "answer": "The chatbot interface is built with Streamlit, a Python framework for creating interactive web applications."
+    },
+    {
+        "question": "Which NLP model is used in this project?",
+        "answer": "The project uses the sentence-transformers library to create sentence embeddings. The configured model is all-MiniLM-L6-v2."
+    },
+    {
+        "question": "What is Streamlit?",
+        "answer": "Streamlit is an open-source Python framework used to build interactive data applications and web interfaces."
+    },
+    {
+        "question": "What is the purpose of the faqs.json file?",
+        "answer": "The faqs.json file stores the chatbot's FAQ questions and their corresponding answers in JSON format."
+    },
+    {
+        "question": "How can I add a new question to the chatbot?",
+        "answer": "Open faqs.json and add a new object containing a question and its answer, following the existing JSON structure. Save the file and restart or refresh the application if needed."
+    },
+    {
+        "question": "Can this chatbot answer every question?",
+        "answer": "No. This version answers questions covered by, or closely matching, its FAQ database. If a question is unrelated or has no reliable match, it should ask the user to try another question rather than invent an answer."
+    },
+    {
+        "question": "Does this chatbot use an OpenAI API key?",
+        "answer": "No. This version uses a local Sentence Transformers model and its FAQ database. It does not require an OpenAI API key."
+    }
+]
