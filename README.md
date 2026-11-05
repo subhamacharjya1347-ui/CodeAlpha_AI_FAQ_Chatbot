@@ -36,13 +36,13 @@ The application also supports common spelling corrections, multiple-question han
 ## 🖥️ Project Screenshots
 
 ### 1. Chatbot Dashboard
-![Chatbot Dashboard](screenshots/homepage.png)
+![Chatbot Dashboard](homepage.png)
 
 ### 2. Intelligent Answer Generation
-![Successful Answer](screenshots/successful_answer.png)
+![Successful Answer](successful_answer.png)
 
 ### 3. Spelling Correction
-![Spelling Correction](screenshots/spelling_correction.png)
+![Spelling Correction](spelling_correction.png)
 
 ## 🛠️ Technologies Used
 
